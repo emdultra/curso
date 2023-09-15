@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	calculadora()
+	conversor()
 }
 
 func calculadora() {
@@ -16,4 +16,8 @@ func calculadora() {
 		fmt.Println(erro.Error())
 	}
 	fmt.Println(valor)
+}
+
+func conversor() {
+	arquivos.Conversor()
 }
