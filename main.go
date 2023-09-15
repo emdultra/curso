@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	conversor()
+
 }
 
 func calculadora() {
@@ -20,4 +20,8 @@ func calculadora() {
 
 func conversor() {
 	arquivos.Conversor()
+}
+
+func ordernar() {
+	arquivos.Ordenar()
 }
