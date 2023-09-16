@@ -18,10 +18,14 @@ func calculadora() {
 	fmt.Println(valor)
 }
 
-func conversor() {
+func conversorArray() {
 	arquivos.Conversor()
 }
 
-func ordernar() {
+func ordernarSlice() {
 	arquivos.Ordenar()
+}
+
+func contadorMap() {
+	arquivos.ContadorLetras()
 }
